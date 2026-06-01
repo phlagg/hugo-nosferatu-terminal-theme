@@ -53,10 +53,7 @@ nav {
     font-size: 18px;
 }
 
-.prompt::before {
-    content: "{{ site.Params.prompt | default "guest@dev:~$" }} ";
-    color: var(--magenta);
-}
+
 
 .cursor {
     animation: blink 1s step-end infinite;
