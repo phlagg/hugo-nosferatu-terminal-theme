@@ -21,3 +21,15 @@ theme = "hugo-theme-tokyo-terminal"
     identifier = "about"
     name = "About"
     url = "/about"
+  [[menu.main]]
+    identifier = "experience"
+    name = "Experience"
+    url = "/experience"
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects"
+  [[menu.main]]
+    identifier = "skills"
+    name = "Skills"
+    url = "/skills"

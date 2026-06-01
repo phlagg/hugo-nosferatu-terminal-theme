@@ -1,1 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>guest@dev:~$</title><link>https://example.org/</link><description>Recent content on guest@dev:~$</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>guest@dev:~$</title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content on guest@dev:~$</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>About</title>
+				<link>http://localhost:1313/about/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/about/</guid>
+				<description>&lt;p&gt;This is a sample About page for the &lt;code&gt;hugo-theme-tokyo-terminal&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;As a developer, this is where you would put your background, your passions, and a brief overview of your journey in software engineering.&lt;/p&gt;&#xA;&lt;p&gt;The theme natively supports markdown, allowing you to easily write &lt;strong&gt;bold&lt;/strong&gt; text, &lt;em&gt;italic&lt;/em&gt; text, and insert code blocks:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;hello_world&lt;/span&gt;():&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Welcome to Tokyo Terminal!&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+			</item>
+			<item>
+				<title>Experience</title>
+				<link>http://localhost:1313/experience/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/experience/</guid>
+				<description>&lt;p&gt;This is a sample Experience page.&lt;/p&gt;&#xA;&lt;h2 id=&#34;senior-software-engineer&#34;&gt;Senior Software Engineer&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tech Corp&lt;/strong&gt; | &lt;em&gt;2021 - Present&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Architected a highly scalable microservice backend using Go and gRPC.&lt;/li&gt;&#xA;&lt;li&gt;Reduced database latency by 40% through aggressive query optimization.&lt;/li&gt;&#xA;&lt;li&gt;Mentored junior engineers and led the transition to Kubernetes.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;backend-engineer&#34;&gt;Backend Engineer&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Startup Inc&lt;/strong&gt; | &lt;em&gt;2019 - 2021&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Built real-time data pipelines processing millions of events daily.&lt;/li&gt;&#xA;&lt;li&gt;Implemented core billing features using Stripe API.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>Projects</title>
+				<link>http://localhost:1313/projects/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/projects/</guid>
+				<description>&lt;p&gt;This is a sample Projects page.&lt;/p&gt;&#xA;&lt;h2 id=&#34;distributed-key-value-store&#34;&gt;Distributed Key-Value Store&lt;/h2&gt;&#xA;&lt;p&gt;A high-performance, distributed key-value store written from scratch in Go using the Raft consensus algorithm.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#&#34;&gt;View Source on GitHub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;tokyo-terminal-theme&#34;&gt;Tokyo Terminal Theme&lt;/h2&gt;&#xA;&lt;p&gt;A retro, developer-focused Hugo theme utilizing the Tokyo Night color palette.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#&#34;&gt;View Source on GitHub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>Skills</title>
+				<link>http://localhost:1313/skills/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/skills/</guid>
+				<description>&lt;p&gt;This is a sample Skills page.&lt;/p&gt;&#xA;&lt;h3 id=&#34;languages&#34;&gt;Languages&lt;/h3&gt;&#xA;&lt;p&gt;Go, Python, TypeScript, Java, C++&lt;/p&gt;&#xA;&lt;h3 id=&#34;infrastructure&#34;&gt;Infrastructure&lt;/h3&gt;&#xA;&lt;p&gt;Kubernetes, Docker, AWS, Terraform, GitHub Actions&lt;/p&gt;&#xA;&lt;h3 id=&#34;databases&#34;&gt;Databases&lt;/h3&gt;&#xA;&lt;p&gt;PostgreSQL, Redis, MongoDB, Cassandra&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
