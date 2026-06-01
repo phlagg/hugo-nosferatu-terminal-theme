@@ -1,0 +1,11 @@
+{{ define "main" }}
+    {{ if site.Params.social }}
+    <div class="social-links">
+        {{ range site.Params.social }}
+        <a href="{{ .url }}" target="_blank">~/{{ .name }}</a>
+        {{ end }}
+    </div>
+    {{ end }}
+
+    {{ .Content }}
+{{ end }}

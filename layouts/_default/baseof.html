@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ site.LanguageCode | default "en" }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ site.Title }}</title>
+    
+    {{ $style := resources.Get "css/style.css" | resources.ExecuteAsTemplate "css/style.css" . | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
+</head>
+<body>
+    <div class="terminal-container">
+        <header>
+            <nav>
+                <div class="nav-logo">
+                    <a href="{{ site.Home.Permalink }}" class="prompt">{{ site.Title }}</a><span class="cursor">_</span>
+                </div>
+                <div class="nav-links">
+                    {{ range site.Menus.main }}
+                    <a href="{{ .URL }}">{{ .Name }}</a>
+                    {{ end }}
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            {{ block "main" . }}{{ end }}
+        </main>
+    </div>
+</body>
+</html>

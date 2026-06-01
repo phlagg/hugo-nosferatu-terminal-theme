@@ -1,0 +1,23 @@
+baseurl = "https://example.org/"
+locale = "en-us"
+title = "guest@dev:~$"
+theme = "hugo-theme-tokyo-terminal"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  prompt = "guest@dev:~$"
+  
+  [[params.social]]
+    name = "github"
+    url = "https://github.com"
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
