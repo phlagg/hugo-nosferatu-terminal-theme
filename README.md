@@ -12,7 +12,7 @@ A minimal, terminal theme designed to look exactly like a retro terminal environ
 
 1. Inside your Hugo project, run:
 ```bash
-git submodule add https://github.com/rehan-hk/hugo-theme-tokyo-terminal.git themes/hugo-theme-tokyo-terminal
+git submodule add https://github.com/rehan-hk/hugo-tokyo-night-terminal-theme.git themes/hugo-theme-tokyo-terminal
 ```
 
 2. Update your `hugo.toml` to use the theme:

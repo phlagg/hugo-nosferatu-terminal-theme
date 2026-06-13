@@ -1,8 +1,8 @@
 name = "hugo-theme-tokyo-terminal"
 license = "MIT"
-licenselink = "https://github.com/rehan-hk/hugo-theme-tokyo-terminal/blob/main/LICENSE"
+licenselink = "https://github.com/rehan-hk/hugo-tokyo-night-terminal-theme/blob/main/LICENSE"
 description = "A terminal-style Hugo theme with Tokyo Night color scheme and JetBrains Mono."
-homepage = "https://github.com/rehan-hk/hugo-theme-tokyo-terminal"
+homepage = "https://github.com/rehan-hk/hugo-tokyo-night-terminal-theme"
 tags = ["minimal", "terminal", "dark", "tokyo-night"]
 features = ["blog", "portfolio", "cv"]
 min_version = "0.90.0"
