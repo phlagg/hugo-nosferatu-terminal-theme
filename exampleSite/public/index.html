@@ -11,50 +11,143 @@
 </head>
 <body>
     <div class="terminal-container">
-        <header>
-            <nav>
-                <div class="nav-logo">
-                    <a href="http://localhost:1313/" class="prompt">guest@dev:~$</a><span class="cursor">_</span>
-                </div>
-                <div class="nav-links">
-                    
-                    <a href="/about">About</a>
-                    
-                    <a href="/experience">Experience</a>
-                    
-                    <a href="/projects">Projects</a>
-                    
-                    <a href="/skills">Skills</a>
-                    
-                </div>
-            </nav>
-        </header>
+        
 
         <main>
             
-    
-    <div class="social-links">
-        
-        <a href="https://github.com" target="_blank">~/github</a>
-        
-        <a href="https://twitter.com" target="_blank">~/twitter</a>
-        
-    </div>
-    
 
-    <p>Welcome to the <code>hugo-theme-tokyo-terminal</code>. This is a retro, developer-focused terminal theme utilizing the Tokyo Night color scheme and JetBrains Mono.</p>
-<h3 id="features">Features</h3>
-<ul>
-<li>Native terminal prompts</li>
-<li>Tokyo Night Hex codes</li>
-<li>Blinking cursor</li>
-<li>Fully responsive</li>
-</ul>
-<p>Install this theme by running:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git submodule add https://github.com/your-username/hugo-theme-tokyo-terminal.git themes/tokyo-terminal
-</span></span></code></pre></div>
+
+
+<div align="center" style="margin-top: 2rem;">
+  
+  <pre style="color: #bb9af7; font-weight: bold; background: transparent; border: none; font-size: 1.2rem; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">
+   __                                    
+  / /_  __  ______ _____                   
+ / __ \/ / / / __ `/ __ \                  
+/ / / / /_/ / /_/ / /_/ /                  
+/_/ /_/\__,_/\__, /\____/                   
+            /____/                         
+
+  </pre>
+  
+</div>
+
+<div align="center" style="margin-top: 1rem; margin-bottom: 2rem; color: #9ece6a; font-family: monospace; font-size: 1rem;">
+  
+  <p style="color: #c0caf5; margin-bottom: 0.5rem;">Welcome to the Tokyo Terminal Theme</p>
+  
+  
+  <p style="color: #7aa2f7; font-size: 0.95rem;">A clean, Neovim-inspired TUI dashboard for Hugo.</p>
+  
+  
+  <p style="color: #565f89; font-size: 0.9rem; margin-top: 1rem;">Press the highlighted keys to navigate.</p>
+  
+</div>
+
+<div style="max-width: 350px; margin: 0 auto; font-family: monospace; font-size: 1.1rem; line-height: 2.2;">
+  
+  <div style="display: flex; justify-content: space-between;">
+    <span>
+      <span style="color: #7dcfff; margin-right: 8px;"></span>
+      <a href="/about" style="color: #c0caf5; text-decoration: none;" >About</a>
+    </span>
+    
+    <span style="color: #565f89; font-size: 0.95rem;">press <span style="color: #ff9e64;">a</span></span>
+    
+  </div>
+  
+  <div style="display: flex; justify-content: space-between;">
+    <span>
+      <span style="color: #7dcfff; margin-right: 8px;"></span>
+      <a href="/experience" style="color: #c0caf5; text-decoration: none;" >Experience</a>
+    </span>
+    
+    <span style="color: #565f89; font-size: 0.95rem;">press <span style="color: #ff9e64;">e</span></span>
+    
+  </div>
+  
+  <div style="display: flex; justify-content: space-between;">
+    <span>
+      <span style="color: #7dcfff; margin-right: 8px;"></span>
+      <a href="/projects" style="color: #c0caf5; text-decoration: none;" >Projects</a>
+    </span>
+    
+    <span style="color: #565f89; font-size: 0.95rem;">press <span style="color: #ff9e64;">p</span></span>
+    
+  </div>
+  
+  <div style="display: flex; justify-content: space-between;">
+    <span>
+      <span style="color: #7dcfff; margin-right: 8px;"></span>
+      <a href="/skills" style="color: #c0caf5; text-decoration: none;" >Skills</a>
+    </span>
+    
+    <span style="color: #565f89; font-size: 0.95rem;">press <span style="color: #ff9e64;">s</span></span>
+    
+  </div>
+  
+</div>
+
+<div align="center" style="margin-top: 3.5rem; color: #565f89; font-family: monospace; font-size: 0.95rem;">
+  Tip: press <span style="color: #ff9e64;">b</span> or <span style="color: #ff9e64;">backspace</span> to go back
+</div>
+
+
+
 
         </main>
     </div>
+
+
+<script>
+    document.addEventListener('keydown', function(event) {
+        
+        if (event.ctrlKey || event.metaKey || event.altKey || event.shiftKey) return;
+        
+        switch(event.key.toLowerCase()) {
+            
+            
+            case 'a': 
+                
+                window.location.href = '\/about';
+                
+                break;
+            
+            
+            
+            case 'e': 
+                
+                window.location.href = '\/experience';
+                
+                break;
+            
+            
+            
+            case 'p': 
+                
+                window.location.href = '\/projects';
+                
+                break;
+            
+            
+            
+            case 's': 
+                
+                window.location.href = '\/skills';
+                
+                break;
+            
+            
+            case 'h': window.location.href = '/'; break;
+            case 'b':
+            case 'backspace':
+            case 'escape':
+                window.history.back();
+                break;
+        }
+    });
+</script>
+
+
 </body>
 </html>

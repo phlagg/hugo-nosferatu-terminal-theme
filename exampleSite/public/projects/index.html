@@ -10,6 +10,7 @@
 </head>
 <body>
     <div class="terminal-container">
+        
         <header>
             <nav>
                 <div class="nav-logo">
@@ -28,6 +29,7 @@
                 </div>
             </nav>
         </header>
+        
 
         <main>
             
@@ -47,5 +49,57 @@
 
         </main>
     </div>
+
+
+<script>
+    document.addEventListener('keydown', function(event) {
+        
+        if (event.ctrlKey || event.metaKey || event.altKey || event.shiftKey) return;
+        
+        switch(event.key.toLowerCase()) {
+            
+            
+            case 'a': 
+                
+                window.location.href = '\/about';
+                
+                break;
+            
+            
+            
+            case 'e': 
+                
+                window.location.href = '\/experience';
+                
+                break;
+            
+            
+            
+            case 'p': 
+                
+                window.location.href = '\/projects';
+                
+                break;
+            
+            
+            
+            case 's': 
+                
+                window.location.href = '\/skills';
+                
+                break;
+            
+            
+            case 'h': window.location.href = '/'; break;
+            case 'b':
+            case 'backspace':
+            case 'escape':
+                window.history.back();
+                break;
+        }
+    });
+</script>
+
+
 </body>
 </html>

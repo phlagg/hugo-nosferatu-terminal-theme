@@ -8,5 +8,5 @@ features = ["blog", "portfolio", "cv"]
 min_version = "0.90.0"
 
 [author]
-  name = "Mohd Rehan"
-  homepage = "https://portfolio.rehan.dev"
+  name = "Mohd Rehan Haider Kazmi"
+  homepage = "https://rehan-hk.dev"

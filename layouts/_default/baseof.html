@@ -10,6 +10,7 @@
 </head>
 <body>
     <div class="terminal-container">
+        {{ if not (and .IsHome site.Params.dashboard.enabled) }}
         <header>
             <nav>
                 <div class="nav-logo">
@@ -22,10 +23,41 @@
                 </div>
             </nav>
         </header>
+        {{ end }}
 
         <main>
             {{ block "main" . }}{{ end }}
         </main>
     </div>
+
+{{ if site.Params.dashboard.enabled }}
+<script>
+    document.addEventListener('keydown', function(event) {
+        // Ignore keypresses if the user is holding Ctrl/Cmd/Alt/Shift
+        if (event.ctrlKey || event.metaKey || event.altKey || event.shiftKey) return;
+        
+        switch(event.key.toLowerCase()) {
+            {{ range site.Menus.main }}
+            {{ if .Params.shortcut }}
+            case '{{ .Params.shortcut }}': 
+                {{ if .Params.external }}
+                window.open('{{ .URL }}', '_blank');
+                {{ else }}
+                window.location.href = '{{ .URL }}';
+                {{ end }}
+                break;
+            {{ end }}
+            {{ end }}
+            case 'h': window.location.href = '/'; break;
+            case 'b':
+            case 'backspace':
+            case 'escape':
+                window.history.back();
+                break;
+        }
+    });
+</script>
+{{ end }}
+
 </body>
 </html>
