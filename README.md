@@ -1,9 +1,9 @@
 # Hugo Theme Tokyo Terminal
 
-A brutally minimal, developer-focused Hugo theme designed to look exactly like a retro terminal environment, utilizing the **Tokyo Night** color palette and **JetBrains Mono Nerd Font**.
+A minimal, terminal theme designed to look exactly like a retro terminal environment, utilizing the **Tokyo Night** color palette and **JetBrains Mono Nerd Font**.
 
 ## Features
-- Authentic `[user@host]~$` prompts.
+- ASCII art.
 - Pure Tokyo Night syntax highlighting.
 - Blinking cursor animation on the homepage.
 - 100% generic and configurable.
