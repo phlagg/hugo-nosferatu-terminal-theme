@@ -1,6 +1,9 @@
 # Hugo Theme Tokyo Terminal
 
 ![./images/Screenshot.png](https://github.com/rehan-hk/hugo-tokyo-night-terminal-theme/blob/main/images/screenshot.png)
+![./images/Screenshot2.png](https://github.com/rehan-hk/hugo-tokyo-night-terminal-theme/blob/main/images/screenshot2.png)
+![./images/Screenshot3.png](https://github.com/rehan-hk/hugo-tokyo-night-terminal-theme/blob/main/images/screenshot3.png)
+![./images/Screenshot4.png](https://github.com/rehan-hk/hugo-tokyo-night-terminal-theme/blob/main/images/screenshot4.png)
 A minimal, terminal theme designed to look exactly like a retro terminal environment, utilizing the **Tokyo Night** color palette and **JetBrains Mono Nerd Font**.
 
 ## Features
