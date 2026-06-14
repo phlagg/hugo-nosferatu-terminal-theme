@@ -1,7 +1,7 @@
 baseurl = "https://example.org/"
 locale = "en-us"
 title = "guest@dev:~$"
-theme = "hugo-theme-tokyo-terminal"
+theme = "hugo-tokyo-night-terminal-theme"
 
 [markup.goldmark.renderer]
   unsafe = true
